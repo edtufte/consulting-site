@@ -51,7 +51,7 @@
 }
 
 .btn-secondary {
-  background: white;
+  background: var(--card-bg);
   color: var(--primary-blue);
   padding: 15px 30px;
   border: 2px solid var(--primary-blue);
@@ -76,7 +76,8 @@
 /* Credibility Bar */
 .credibility {
   padding: 60px 0;
-  background: white;
+  background: var(--bg-white);
+  transition: background-color 0.3s ease;
 }
 
 .credibility-grid {

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <!-- Icon container with rounded rectangle border -->
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="120" height="120" rx="15" ry="15" fill="none" stroke="#ffffff" stroke-width="4"/>
+    
+    <!-- Truck body -->
+    <rect x="20" y="70" width="45" height="25" fill="#ffffff"/>
+    <!-- Truck cab -->
+    <rect x="65" y="60" width="20" height="35" fill="#ffffff"/>
+    <!-- Truck wheels -->
+    <circle cx="30" cy="100" r="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="70" cy="100" r="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Chart bars -->
+    <rect x="15" y="50" width="6" height="15" fill="#ffffff"/>
+    <rect x="23" y="45" width="6" height="20" fill="#ffffff"/>
+    <rect x="31" y="40" width="6" height="25" fill="#ffffff"/>
+    <rect x="39" y="35" width="6" height="30" fill="#ffffff"/>
+    
+    <!-- Upward trending arrow -->
+    <path d="M50 40 L80 20 L75 25 L80 20 L85 25" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="160" y="60" font-family="Times, serif" font-size="48" font-weight="bold" fill="#ffffff">TUFTE</text>
+  <text x="160" y="115" font-family="Times, serif" font-size="48" font-weight="bold" fill="#ffffff">DECISION</text>
+  <text x="160" y="170" font-family="Times, serif" font-size="48" font-weight="bold" fill="#ffffff">SCIENCES</text>
+  <text x="650" y="170" font-family="Times, serif" font-size="24" fill="#ffffff">LLC</text>
+  
+  <!-- Tagline -->
+  <text x="160" y="220" font-family="Arial, sans-serif" font-size="18" font-weight="normal" letter-spacing="2" fill="#ffffff">FINANCE • DATA • LOGISTICS</text>
+</svg>
