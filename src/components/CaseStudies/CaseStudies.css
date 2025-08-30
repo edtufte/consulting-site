@@ -1,0 +1,177 @@
+/* Case Study Section */
+.case-study {
+  padding: 80px 0;
+  background: white;
+}
+
+.case-highlight {
+  background: var(--primary-blue);
+  color: white;
+  padding: 50px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.case-highlight h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.case-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.case-metric {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Team Section */
+.team {
+  padding: 80px 0;
+  background: var(--bg-light);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-name {
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+  margin-bottom: 5px;
+}
+
+.member-role {
+  color: var(--text-light);
+  margin-bottom: 15px;
+}
+
+.member-bio {
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.team-network {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, var(--secondary-purple), var(--accent-purple));
+  color: white;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-white {
+  background: white;
+  color: var(--primary-blue);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.btn-white:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .case-highlight {
+    padding: 30px 20px;
+  }
+  
+  .case-highlight h3 {
+    font-size: 1.5rem;
+  }
+  
+  .case-metrics {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .metric-value {
+    font-size: 1.5rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .team-network {
+    padding: 30px 20px;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-section p {
+    font-size: 1rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-white {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
